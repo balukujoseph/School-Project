@@ -1,0 +1,41 @@
+:root{
+    --primary: #0055ff;
+    --secondary: 
+}
+nav{
+    /*display:;*/
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 40%;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li{
+    margin-left: 2rem;
+}
+nav img{
+    align-items: center;
+}
+
+.details ul{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.ht-message{
+    display: flex;
+}
+
+body{
+    align-items: center;
+}
+
+.leadership{
+    display: flex;
+    justify-content: space-around;
+}
