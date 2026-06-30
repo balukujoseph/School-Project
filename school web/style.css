@@ -1,9 +1,7 @@
 :root{
     --secondary: #00008b;
     --primary: #0000ff;
-}
-
-body{
+    --tertiary: #f4f7f6;
 }
 
 header{
@@ -170,23 +168,25 @@ nav img{
 }
 .hm{
     background-color: var(--primary);
+    /*padding: 10px 20px;*/
     border-radius: 20vw;
     color: aliceblue;
     text-align: center;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
 }
 .ht-content{
     color: var(--secondary);
     line-height: 1.6;
+    background-color: var(--tertiary);
 }
 .ht-message img{
     border-radius: 12px;
-    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    /*box-shadow: 0 8px 16px rgba(0,0,0,0.1);*/
     object-fit: cover;
 }
 
-body{
-    
-}
 
 .leadership{
     display: flex;
